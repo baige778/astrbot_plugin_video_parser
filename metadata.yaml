@@ -1,0 +1,10 @@
+name: astrbot_plugin_video_parser
+description: 解析短视频/图集分享链接并发送直链内容。支持抖音、快手、B站、小红书、微博等主流平台，自动获取视频/图集直链直接发送。
+author: Go-bot
+version: 0.1.0
+support_platforms:
+  - aiocqhttp
+  - wecom
+  - telegram
+  - weixin_oc
+repo: https://github.com/Go-bot/astrbot_plugin_video_parser
