@@ -1,5 +1,6 @@
 # AstrBot 短视频解析插件
 
+仅个人使用，纯AI制作，不会修改，有需要的可以直接fork到自己仓库内修改。
 自动解析短视频/图集分享链接，获取直链后在聊天中直接发送视频和图集。
 
 ## ✨ 功能
@@ -54,6 +55,7 @@
 ## 🔧 依赖
 
 - 视频解析 API 后端（需自行部署，插件通过 HTTP 调用）
+- https://github.com/wujunwei928/parse-video-py（API部署项目）
 - AstrBot v4.x+
 
 ## 📝 使用
@@ -69,5 +71,4 @@ https://xhslink.com/xxxxx
 也支持 QQ 小程序卡片形式的分享。
 
 ## 📄 许可证
-
-MIT
+菜得抠脚
