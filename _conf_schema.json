@@ -1,0 +1,32 @@
+{
+  "parser_api_base_url": {
+    "type": "string",
+    "description": "解析接口地址",
+    "hint": "用于请求视频解析服务的基础地址。",
+    "default": "http://127.0.0.1:17992"
+  },
+  "video_max_size_mb": {
+    "type": "int",
+    "description": "最大视频大小限制 (MB)",
+    "hint": "超过此大小的视频将不会直接发送。",
+    "default": 50
+  },
+  "request_timeout_ms": {
+    "type": "int",
+    "description": "请求超时时间 (毫秒)",
+    "hint": "API请求和文件探测的超时时间。",
+    "default": 15000
+  },
+  "send_cover": {
+    "type": "bool",
+    "description": "发送视频封面图",
+    "hint": "是否在发送视频的同时附带封面图片。",
+    "default": true
+  },
+  "processing_message": {
+    "type": "string",
+    "description": "处理中提示语",
+    "hint": "解析视频前发送的提示文字。留空则不发送。",
+    "default": "ikun解析bot正在处理中。。。"
+  }
+}
