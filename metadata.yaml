@@ -7,4 +7,4 @@ support_platforms:
   - wecom
   - telegram
   - weixin_oc
-repo: https://github.com/Go-bot/astrbot_plugin_video_parser
+repo: https://github.com/baige778/astrbot_plugin_video_parser
