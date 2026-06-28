@@ -54,7 +54,7 @@
 ## 🔧 依赖
 
 - 视频解析 API 后端（需自行部署，插件通过 HTTP 调用）
-- https://github.com/wujunwei928/parse-video-py（API部署项目）
+- https://github.com/wujunwei928/parse-video-py
 - AstrBot v4.x+
 
 ## 📝 使用
